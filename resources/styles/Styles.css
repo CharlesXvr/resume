@@ -27,7 +27,9 @@
 }
 
 .cols {
+    padding: 0 4rem;
     display: flex;
+    background-color: #424242;
 }
 
 /* COL 1*/
@@ -89,24 +91,29 @@
 #col-2 {
     background-color: #f5f5f5;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-top: 0;
+    max-width: 100vh;
 }
-.name-container {
+.header-container {
     padding: 4rem 4rem;
     background-color: #424242;
     height: max-content;
 }
-.name-container .title {
+.header-container .title {
     letter-spacing: .6rem;
     padding: 2rem;
     color: #e0e0e0;
     text-align: center;
 }
- .name-container .line {
+ .header-container .line {
     display: flex;
     justify-content: center;
     border-radius: 12rem;
     background-color:#8d8d8d;
     height: .4rem;
     width: 6rem;
+}
+.profile {
+    margin-top: 2rem;
 }
