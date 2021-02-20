@@ -16,17 +16,17 @@ body {
 
  /*GENERAL*/
  .cardtitle {
-    font-size: 2rem;
+    font-size: 1.5vw;
     color: #fff;
     font-family: 'Lato', sans-serif;
  }
  a, h1, h2, h3, h4, p {
-    font-size: 1.5rem;
+    font-size: 1vw;
     text-indent: 1rem;
     font-family: 'Lato', sans-serif;
 }
 li {
-    font-size: 1.5rem;
+    font-size: 1vw;
 }
 .text-w-border-bot {
     text-transform: uppercase;
@@ -34,12 +34,12 @@ li {
     border-bottom: .2rem groove #484848;
 }
 .title {
-    font-size: 2rem;
+    font-size: 1.5vw;
     font-weight: bold;
     text-transform: uppercase;
 }
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1vw;
 }
 
 .cols {
@@ -66,17 +66,19 @@ li {
 
 .image-field img {
     width: 100%;
-    height: 40vh;
+    height: 25vw;
+    max-height: 20%;
+
     border-radius: 20%;
-    box-shadow: 0 0 1rem #424242;
+    box-shadow:  0 0 1vw #424242;
 }
 .contact-item {
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1vw;
+    padding: .5vw;
     display: flex;
 }
 .contact-item .icon img {
-    width: 3rem;
+    width: 2vw;
 }
 .education-item  {
     padding: 1rem 0;
@@ -92,7 +94,7 @@ li {
 }
 .education-item .icon img{
     padding-left: 1vw;
-    width: 5rem;
+    width: 3vw;
 }
 .skills .skill-list {
     padding: 1vw;
@@ -132,7 +134,7 @@ li {
     justify-content: space-between;
     border-radius: 12rem;
     background-image: linear-gradient(45deg, #ffeb3b, #76ff03 50%, #d50000);
-    height: 1vh;
+    height: .5vw;
     width: 8vw;
 }
 .profile {
@@ -142,15 +144,15 @@ li {
     padding: 1rem;
 }
 #col-2 section p {
-    padding: 1rem;
+    padding: 1vw;
 }
 
 
 /******* MEDIA QUERIES ********/
 
-@media only screen and (max-width:640px) {
+@media only screen and (max-width:648px) {
     a, h1, h2, h3, h4, p {
-        font-size: .8rem;
+        font-size: 1rem;
     }
     li {
         font-size: 1rem;
@@ -158,7 +160,7 @@ li {
     
     .title, .cardtitle {
         text-indent: 0;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .subtitle {
         font-size: 1rem;
@@ -174,12 +176,16 @@ li {
     #col-1 {
         width: 50%;
     }
-    .image-field img{
-        max-width: 50vw;
-        height: 30vh;
+    .contact {
+        margin: 1rem 0 1rem 0;
     }
     .contact-item {
-        padding: 0;
+        padding: 1rem 0 1rem 0;
+    }
+    .image-field img{
+        max-width: 50vw;
+        height: 20rem;
+        max-height: 80rem;
     }
     .contact-item .icon img {
         width: 2rem;
@@ -191,6 +197,11 @@ li {
         width: 50%;
         margin: 0;
     }
-    
-
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .cols {
+        padding: 0 1rem ;
+        margin: 0;
+        width: 100%;
+    }
 }
