@@ -150,7 +150,7 @@ li {
 
 /******* MEDIA QUERIES ********/
 
-@media only screen and (max-width:648px) {
+@media only screen and (max-width:768px) {
     a, h1, h2, h3, h4, p {
         font-size: 1rem;
     }
@@ -188,7 +188,7 @@ li {
         max-height: 80rem;
     }
     .contact-item .icon img {
-        width: 2rem;
+        width: 1.5rem;
     }
     .education-item .icon img{
         width: 3rem;
@@ -198,10 +198,34 @@ li {
         margin: 0;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 648px) and (max-width: 1200px) {
     .cols {
-        padding: 0 1rem ;
+        padding: 0 ;
         margin: 0;
-        width: 100%;
+    }
+    a, h1, h2, h3, h4, p {
+        font-size: 2.5vw;
+    }
+    li {
+        font-size: 2.5vw;
+    }
+    
+    .title, .cardtitle {
+        text-indent: 0;
+        font-size: 3.5vw;
+    }
+    .subtitle {
+        font-size: 3.5vw;
+    }
+    .image-field img{
+        max-width: 50vw;
+        height: 40rem;
+        max-height: 80rem;
+    }
+    .contact-item .icon img {
+        width: 4rem;
+    }
+    .education-item .icon img{
+        width: 6rem;
     }
 }
