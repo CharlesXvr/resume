@@ -185,15 +185,19 @@ li {
         padding: 1rem 0 1rem 0;
     }
     .image-field img{
-        max-width: 50vw;
-        height: 20rem;
-        max-height: 80rem;
+        width: 100%;
+        height:  min-content;
     }
     .contact-item .icon img {
         width: 1.5rem;
     }
+    .education-item p{
+        font-size: 1rem;
+        text-indent: 0;
+    }
     .education-item .icon img{
-        width: 3rem;
+        width: 4rem;
+        padding: 0 1rem;
     }
     #col-2 {
         width: 50%;
