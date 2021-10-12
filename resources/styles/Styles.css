@@ -64,6 +64,7 @@ li {
 }
 
 .image-field img {
+    width: 100%;
     height: 35vh;
     border-radius: 20%;
     box-shadow:  0 0 1vw #424242;
@@ -224,7 +225,6 @@ li {
         font-size: 3.5vw;
     }
     .image-field img{
-        max-width: 50vw;
         height: 40rem;
         max-height: 80rem;
     }
