@@ -64,10 +64,10 @@ li {
 }
 
 .image-field img {
-    width: 100%;
+    width: 30rem;
     max-height: 35rem;
     border-radius: 4rem;
-    box-shadow:  0 0 1vw #424242;
+    box-shadow:  0 0 2rem #424242;
 }
 .contact-item {
     margin: 1rem;
@@ -186,8 +186,14 @@ li {
     #col-1 {
         width: 50%;
     }
+    .image-field {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
     .image-field img {
-        height: 20rem;
+        width: 100%;
+        height: auto;
     }
     .contact {
         margin: 1rem 0 1rem 0;
@@ -231,8 +237,9 @@ li {
         font-size: 2rem;
     }
     .image-field img{
-        height: 40rem;
-        max-height: 80rem;
+        width: 100%;
+        height: 30rem;
+        max-height: 50rem;
     }
     .contact-item .icon img {
         width: 4rem;
