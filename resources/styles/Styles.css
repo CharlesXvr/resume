@@ -59,18 +59,18 @@ li {
 }
 
 .image-field {
-    height:fit-content;
-    padding: 1vw;
+    height: auto;
+    margin: 1rem;
 }
 
 .image-field img {
     width: 100%;
-    height: 35vh;
+    height: 30rem;
     border-radius: 20%;
     box-shadow:  0 0 1vw #424242;
 }
 .contact-item {
-    margin: 1rem;
+    margin: .5rem 0;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -79,10 +79,19 @@ li {
     width: 3rem;
 }
 .education-item {
-    padding: 1rem 0;
+    padding: 1rem 1rem;
 }
 .education-item p {
-    margin: 1rem 1rem;
+    margin: 1rem 0;
+    text-align: left;
+    text-indent: 0;
+}
+.education-item p.subtitle {
+    margin: 0 0;
+    text-indent: 0;
+}
+.education-item .icon, .education-item img{
+    width: 3.5rem;
 }
 .date-item {
     display: flex;
@@ -90,9 +99,9 @@ li {
     align-items: center;
     justify-content: left;
 }
-.education-item .icon img{
-    padding-left: 2rem;
-    width: 6rem;
+
+.date-item p {
+    padding: 0 1rem;
 }
 .skills .skill-list {
     padding: 1vw;
